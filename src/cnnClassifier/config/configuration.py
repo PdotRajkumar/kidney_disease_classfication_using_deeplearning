@@ -39,7 +39,7 @@ class ConfigurationManager:
 
 
     
-    def get_prepare_base_model_config(self) -> PrepareBaseModelConfig:
+    def get_base_model_config(self) -> PrepareBaseModelConfig:
         config = self.config.prepare_base_model
         
         create_directories([config.root_dir])
